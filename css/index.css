@@ -1,0 +1,19 @@
+body {
+     background: red;
+}
+
+nav li {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 h4 {
+    float: left;
+}
+
+floater {
+    text-align: center;
+}
