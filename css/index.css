@@ -1,19 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|PT+Sans&display=swap');
+
 body {
-     background: red;
+    background-color: #A09191;
 }
 
-nav li {
-    list-style: none;
+:root {
+    font-family:'PT Sans', sans-serif;
+    --main-color: #A09191;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
 }
 
 h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
     text-align: center;
+    margin: 1rem 0;
 }
 
-h3 h4 {
-    float: left;
+header .menu {
+    font-family:'PT Sans', sans-serif;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
 }
 
-floater {
-    text-align: center;
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border: 3px solid transparent;
+    padding: 5px;
 }
+
+header .menu a:hover {
+    font-size: 20px;
+}
+
+@media (min-width: 600px) {
+    a {
+        display: flex;
+        align-items: center;
+    }
+
+    .networks {
+        display: flex;
+        justify-content: flex-end;
+    }
+        
+
+    header.menu {
+        flex: 1;
+    }    
+}
+
+.networks {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header {
+    background-color: grey;
+    padding: 1px;
+}
+
+.title {
+    background-color: #CBBFBF;
+    padding-top: 7px;
+    border-top: 0px;
+    margin: 0px;
+}
+
+
+}
+
+p.dline {
+    line-height: 1.5;
+}
+
+P {
+    line-height: 0.9em;
+}
+
