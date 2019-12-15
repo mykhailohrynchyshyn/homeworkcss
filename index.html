@@ -33,34 +33,43 @@
         </nav>
     </header>
     <main>
-        <section id="topsales">
             <h1>Top Sales!</h1>
-            <section id="lineiphonesheader">
-                <article class="iphone">
+            <div class="lineiphonesheader">
+                <div class="iphone">
                     <img src="images/iphone2g.png" alt="ipone2g" width="175px">
                     <p>Iphone 2G
                        999.9$</p>
+                    <input type="button" id="button" value="Buy">
+                </div>
+                <div class="iphone1">
+                    <img src="images/iphone2g.png" alt="iphone2g" width="175px">
+                    <p>Iphone 2G
+                       999.9$</p>
                     <button class="button">Buy</button>
-                </article>
-            </section>
+                </div>
+                <div id="iphone2">
+                    <img src="images/iphone2g.png" alt="iphone2g" width="175px">
+                    <p>Iphone 2G
+                       999.9$</p>
+                    <button class="button">Buy</button>
+                </div>
+            </div>
+        <section id="loginform">
+            <h1>Login</h1>
+            <form class="login-form">
+                <label>
+                    Name: <input type="text" name="name">
+                </label>
+                <br>
+                <label>
+                    Password: <input type="password" name="password">
+                </label>
+                <br>
+                <input type="submit">
+            </form>
         </section>
     </main>
-                <!-- <section id="iphone1">
-                    <img src="images/iphone2g.png" alt="iphone2g">
-                    <p>Iphone 2G</p>
-                    <p>999.9$</p>
-                    <button>Buy</button>
-                </section>
-                <section id="iphone2">
-                    <img src="images/iphone2g.png" alt="iphone2g">
-                    <p>Iphone 2G</p>
-                    <p>999.9$</p>
-                    <button>Buy</button>
-                </section>
-            </section>
-        </section>
-    </main>
-        <br>
+        <!-- <br>
         <section>
             <h1>Catalogue</h1>
             <nav>
@@ -164,5 +173,6 @@
             Bangalore – 560068
         </p> -->
     </footer>
+    <script src="js/index.js"></script>
 </body>
 </html>
