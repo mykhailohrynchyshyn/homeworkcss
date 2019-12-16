@@ -17,7 +17,7 @@ function login(e) {
 }
 
 let visible = true;
-function showFun() {
+function hide() {
     if(visible) {
         document.getElementById('iphone2' ).style.display = 'none';
         visible = false;
@@ -26,4 +26,15 @@ function showFun() {
         visible = true;
     }
 }
-document.getElementById('button').onclick = showFun;
+document.getElementById('button').onclick = hide;
+
+function hidetopsales() {
+    if(visible) {
+        document.getElementById('lineiphonesheader' ).style.display = 'none';
+        visible = false;
+    } else {
+        document.getElementById('lineiphonesheader' ).style.display = 'block';
+        visible = true;
+    }
+}
+document.getElementById('hidebutton').onclick = hidetopsales;
